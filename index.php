@@ -9,6 +9,8 @@ error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
 
+
+
 require 'App/Autoloader.php';
 Autoloader::register();
 Router::routing($_SERVER['REDIRECT_URL'],$_SERVER['QUERY_STRING']);
